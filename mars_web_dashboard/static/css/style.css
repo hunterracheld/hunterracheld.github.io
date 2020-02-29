@@ -1,0 +1,18 @@
+container{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+.hemisphere-card{
+    margin: 0 auto;
+}
+
+@media (max-width: 720px){
+    .ft{
+       width: 50%;
+       height: auto
+    }
+    
+}
