@@ -24,29 +24,12 @@ h1{
     font-weight: bold;
 }
 
-h3 {
-    color: #F8F9FC;
-    font-size: 1.4em;
-    margin-top: 15px;
-    margin-bottom: 5px;
-}
 
 h4 {
     color: #F8F9FC;
     text-align: left;
     margin-top: 12px;
     margin-bottom: 17px;
-}
-
-strong {
-    color: #F8F9FC;
-}
-
-form em {
-    color: #A6ACBF;
-    font-size: 1.2em;
-    font-style: normal;
-    margin-top: 14px;
 }
 
 header {
@@ -115,15 +98,6 @@ header nav .btn:hover {
     text-align: center;
 }
 
-
-
-.models{
-    padding: 30px 50px 10px 40px;
-    background-color: #A6ACBF
-
-
-}
-
 footer {
     background-color: #A6ACBF;
     color: #fff;
@@ -132,43 +106,6 @@ footer {
     height: 88px;
     min-width: 100%;
     position: absolute;
-}
-
-
-form {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-form select {
-    margin: 14px 10px 28px 10px;
-    outline: none !important;
-}
-
-form optgroup {
-    font-size: 1.2em;
-}
-
-form .btn {
-    background-color: #02113B;
-    color: #fff;
-    font-size: 1em;
-    margin-top: 11px;
-    margin-left: 8px;
-    padding: 2px 12px;
-    height: 28px;
-}
-
-form .btn:hover {
-    background-color: #A0ABCF;
-    color: #fff;
-}
-
-select {
-    border-color: #A6ACBF;
-    color: #164C8E;
-    font-size: 1.2em;
 }
 
 
