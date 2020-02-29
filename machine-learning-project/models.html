@@ -39,6 +39,29 @@
         </header>
 
         <!-- Main Content -->
+        <!-- Intro-->
+        <div class="row main-content">
+            <div class="col col-12">
+                <h4>Models Used</h4>
+                <p>The data set comprised 54 features with Likert scale responses (0=Never, 1=Seldom,
+                    2=Averagely, 3=Frequently, 4=Always). The SVM, Logistic Regression, and K Nearest Neighbors models
+                    were run on all features to determine prediction accuracy.
+                    The top five features* were selected using feature importance in the Random Forest Classifier. The
+                    SVM, Logistic Regression, and K Nearest Neighbors models were the run again using only these
+                    features listed
+                    below in order of importance:
+                    9. I enjoy traveling with my wife.
+                    18. My spouse and I have similar ideas about how marriage should be.
+                    40. We’re just starting a discussion before I know what’s going on.
+                    11. I think that one day in the future, when I look back, I see that my spouse and I have been in
+                    harmony with each other.
+                    20. My spouse and I have similar values in trust.</p>
+                <br>
+                <p>*In the process of gathering predictions on all factors for the SVM model, the featur importance
+                    function identified a new set of top 5 questions, though the Classification Report remained
+                    identical</p>
+            </div>
+        </div>
         <!-- Logistic Regression -->
         <div class="row model-content">
             <div class="col col-12">
@@ -48,12 +71,12 @@
 
         <div class="row justify-content-around">
             <div class="imgcol col-6">
-                <img src="Images/LogReg_ClassR_ourfactors.PNG" height="153" width="493" alt="LRReport_ourfactors">
-                <p>Classification Report for predictions based on our Logistic Regression model looking at Questions 9, 18, 40, 11, 20
+                <img src="Images/LogReg_ClassR_allfactors.png" height="153" width="493" alt="LRReport_ourfactors">
+                <p>Classification Report for predictions based on our Logistic Regression model looking at all factors
                 </p>
             </div>
             <div class="imgcol col-6">
-                <img src="Images/LogReg_ClassR_theirfactors.PNG" height="153" width="493" alt="LRReport_theirfactors">
+                <img src="Images/LogReg_ClassR_ourfactors.png" height="153" width="493" alt="LRReport_theirfactors">
                 <p>Classification Report for predictions based on researchers' model looking at Questions 2, 6, 11, 18,
                     26</p>
 
@@ -70,14 +93,14 @@
 
         <div class="row justify-content-around">
             <div class="imgcol col-6">
-                <img src="Images/SVM_ClassR_ourfactors.png" height="153" width="493" alt="SVMReport_ourfactors">
-                <p>Classification Report for predictions based on our SVM model looking at Questions 9, 18, 40, 11, 20
+                <img src="Images/SVM_ClassR_allfactors.png" height="153" width="493" alt="SVMReport_ourfactors">
+                <p>Classification Report for predictions based on our SVM model looking at all factors
                 </p>
             </div>
             <div class="imgcol col-6">
-                <img src="Images/SVM_ClassR_theirfactors2.png" height="153" width="493" alt="SVMReport_theirfactors">
-                <p>Classification Report for predictions based on researchers' model looking at Questions 2, 6, 11, 18,
-                    26</p>
+                <img src="Images/SVM_ClassR_ourfactors.png" height="153" width="493" alt="SVMReport_theirfactors">
+                <p>Classification Report for predictions based on researchers' model looking at Questions 18, 40, 16,
+                    17, 11</p>
 
             </div>
         </div>
@@ -93,12 +116,12 @@
 
         <div class="row justify-content-around">
             <div class="imgcol col-6">
-                <img src="Images/KNN_ClassR_ourfactors.PNG" height="153" width="493" alt="KNNReport_ourfactors">
-                <p>Classification Report for predictions based on our KNN model looking at Questions 9, 18, 40, 11, 20
+                <img src="Images/KNN_ClassR_allfactors.png" height="153" width="493" alt="KNNReport_ourfactors">
+                <p>Classification Report for predictions based on our KNN model looking at all factors
                 </p>
             </div>
             <div class="imgcol col-6">
-                <img src="Images/KNN_ClassR_theirfactors.PNG" height="153" width="493" alt="KNNReport_theirfactors">
+                <img src="Images/KNN_ClassR_ourfactors.png" height="153" width="493" alt="KNNReport_theirfactors">
                 <p>Classification Report for predictions based on researchers' model looking at Questions 2, 6, 11, 18,
                     26</p>
 
