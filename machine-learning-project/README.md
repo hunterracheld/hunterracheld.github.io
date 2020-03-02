@@ -21,6 +21,8 @@ https://hunterracheld.github.io/machine-learning-project/models.html
 - Upload data to jupyter notebook with pandas
 - Pre-process data (train_test_split)
 - Make predictions using three different algorithms, first on all features, then on top 5 features
+- Adjust source data to be visualized in Tableau
+- Compile classification reports and visualizations into a website hoted by github
 
 # Summary
 - Because responses were consistent among married and divorced couples, it is very likely that we could use a different set of top five features and receive the same results.
