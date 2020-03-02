@@ -30,7 +30,3 @@ https://hunterracheld.github.io/machine-learning-project/models.html
 - Many responses don’t seem sensible at first glance but are reinforced by the results of the models. This suggests that cultural influences might be in play. (i.e. 89.5% of married couples responded that they never enjoy holidays with their spouse, while only 4.8% of divorced couples answered the same).
 - Cultural norms, such as arranged marriages, can have a great impact on responses and therefore predictions of future data. Turkey has a lot of cultural norms around marriage that are rapidly changing.
 
-Areas for Future Exploration
-- Because of cultural norms around marriage in Turkey, it would be interesting to explore the difference in responses by generation and gender. Age and gender are not available in the current data set.
-- Explore possibilities of why results are so polarized. Many answers from divorced respondents suggest that they believed they really knew their former spouse. It would be beneficial to explore the psychological components at play in these responses.
-- Analyze other countries for comparison. Are results similar by region, continent, etc.?
