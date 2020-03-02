@@ -9,7 +9,7 @@ The Divorce Predictors Data Set originally appeared in a 2019 study by Yöntem e
 https://archive.ics.uci.edu/ml/datasets/Divorce+Predictors+data+set
 
 # Link to live website
-https://hunterracheld.github.io/machine-learning-project/models.html
+https://hunterracheld.github.io/machine-learning-project/index.html
 
 # Sitemap
 - Introduction
