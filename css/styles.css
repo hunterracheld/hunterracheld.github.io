@@ -22,7 +22,7 @@ header {
     font-family: Futura;
 }
 
-header h1 {
+h1 {
     
     color: #000;
     text-align: left;
@@ -40,7 +40,17 @@ h4{
 }
 
 p{
-    color: #000
+    color: #000;
+    text-align: center;
+}
+.row{
+    padding-bottom: 20px;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 
