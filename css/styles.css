@@ -23,7 +23,7 @@ html, body {
 }
 
 em{
-    font-size: 14px;
+    font-size: 13px;
 }
 
 header {
@@ -46,6 +46,11 @@ h4{
 
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .knitrows{
     margin-top: 40px;
     padding-top: 50px;
@@ -62,7 +67,7 @@ h4{
 
 .mytext{
     text-align: justify;
-    font-size: 14px;
+    font-size: 15px;
     margin-right: 40px;
 }
 
@@ -89,7 +94,4 @@ p{
 }
 
 
-img {
-    max-width: 100%;
-    height: auto;
-}
+
