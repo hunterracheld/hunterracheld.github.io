@@ -2,34 +2,37 @@
 html, body {
     height: 100%;
     width: 100%;
-    margin: 0;
-    padding: 10px;
+    margin: 0px;
+    padding: 0px;
     background-color:#D7ECE6;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .container-fluid {
     min-height: 100%;
     min-width: 100%;
-    color: #fff;
+    color: #D7ECE6;
     font-size: 16px;
     position: relative;
     padding-bottom: 88px;
 }
 
 header {
-    background-color: #fff;
-    height: 70px;
-    font-family: Futura;
+    background-color: #D7ECE6;
+    padding: 25px 20px 20px 20px;
 }
 
 h1 {
-    
     color: #000;
     text-align: left;
     font-weight: bold;
     white-space: nowrap;
 }
-
 
 h4{
     color: #000;
@@ -39,17 +42,47 @@ h4{
 
 }
 
+.knitrows{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.main-content {
+}
+
+.mycontainer{
+    padding-right: 20px;
+}
+
+.mytext{
+    text-align: justify;
+    font-size: 14px;
+}
+
 p{
     color: #000;
     text-align: center;
 }
+
+#parlour{
+    padding-top: 60px;
+}
+
 .row{
     padding-bottom: 20px;
+    
 }
-.center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
+#sfps{
+    padding-top: 70px;
+}
+
+.textbox{
+    padding-top: 30px;
 }
 
 
+img {
+    max-width: 100%;
+    height: auto;
+}
