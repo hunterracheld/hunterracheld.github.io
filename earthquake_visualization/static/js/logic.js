@@ -36,7 +36,7 @@ var baseMaps = {
 // Create an overlayMaps object for earthquakeData layer
 var overlayMaps = {
     "Earthquakes": earthquakeData,
-    "Fault Lines": faultData
+    "Tectonic Plates": faultData
 };
 
 // Create layer control
